@@ -82,6 +82,8 @@ namespace InvisibleRecaptcha.Models
 
         public string RecaptchaPublicKey { get; }
 
+        public RegisterViewModel() { }
+
         public RegisterViewModel(string recaptchaPublicKey)
         {
             RecaptchaPublicKey = recaptchaPublicKey;
